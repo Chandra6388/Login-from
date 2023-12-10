@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 10vh;
+}
+
+.login-from{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-image: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-child-box{
+    height: 90%;
+    width: 35%;
+
+    margin: 2rem 0 0 5rem;
+    background-color: rgb(201, 173, 192);
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .inside-of-child-box{
+    width: 80%;
+    height: 95%;
+ 
+  }
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}  
+.login-input-box{
+    display: flex;
+    flex-direction:column;
+
+}
+.login-input-box>input{
+margin: 1rem 0 0 0;
+height:2.6rem;
+padding: 1rem;
+border: none;
+border-bottom: 2px solid black;
+border-radius: .6rem;
+}
+.forgot-password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin-top: .5rem;
+}
+.remember-password{
+    display: flex;
+    margin-left:1rem ;
+}
+.remember-password>p{
+    margin: 0;
+}
+.login-button>button{
+    width: 100%;
+    height: 2.6rem;
+    border-radius: .6rem;
+    margin-top: 1.5rem;
+    background-color: rgb(8, 103, 67);
+}
+.not-have-account{
+display: flex;
+float: right;
+
+}
+.login-btn{
+    border: 1px solid black;
+    width: 7rem;
+    height:2.5rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: green;
+}
+.login-btn:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
